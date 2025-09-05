@@ -39,7 +39,7 @@ def complicated_code(input):
                         if c < d:
                             input += d
                             if a < b:
-                                input += a
+                                input += a*b
 
     print("What wonderful code!")
     return make_response(input) 
