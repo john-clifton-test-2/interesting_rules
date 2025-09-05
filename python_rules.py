@@ -41,7 +41,7 @@ def complicated_code(input):
                             if a < b:
                                 input += a
 
-    print("Hello there!")
+    print("What wonderful code!")
     return make_response(input) 
 
 @app.route('/xss2')
